@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#1976d2">
-  <script>
+<!--   <script>
 	(function(i,s,o,g,r,a,m){
 	i["esSdk"] = r;
 	i[r] = i[r] || function() {
@@ -17,16 +17,16 @@
 	m.parentNode.insertBefore(a,m)}
 	) (window, document, "script", "https://esstage.com/scripts/v1/public/scripts?apiKey=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI0NTI0ZWZhYTJkYzI2MGRmYTM4YTE1NDBlMWI1YjM0MGRlYTkyNzEyM2M1ODk0ODMwYmJlNTI3MGM0YTM0ZDFmMjJhMGUwNzY0ZWJlYjc2MjZmNDU3YWY5YzcyMWM3MGQwOGU4Yzg1NzQxM2E3N2JkYjMzNTVjODMyNTFlZWEwMmQ4OWViZDNlMzI3NTYwNTViOTczZjQ3ZmVmZDQ1MTFhMDY4Y2U1OWM5YjFkNjQ1N2ZiMDVhZjkwOThlNCJ9.RqpKDarrw0CqCo6MvEkD3slCf7J5Bp9KDg82VPF-tsfT8o65c4DAbp55L-EH5Kr6QL1FagOXDOSerVtuqQfhCg&domain=7DA08B39-D157-4C95-A0CA-DF71869BC467", "es");
   es("pushOn", {"service-worker": {"relUrl": "/push/esputnik/sw.js", "scope": "https://ng-push.netlify.app/push/esputnik/"}});
-</script>
-<!--   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script> -->
-<!-- <script>
+</script> -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
     await OneSignal.init({
       appId: "3b4731cd-606f-4ce5-bf56-cb59bb1a0eec",
     });
   });
-</script> -->
+</script>
 </head>
 <body>
   <app-root></app-root>
