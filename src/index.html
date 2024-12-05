@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#1976d2">
-  <script>
+<!--   <script>
 	(function(i,s,o,g,r,a,m){
 	i["esSdk"] = r;
 	i[r] = i[r] || function() {
@@ -19,8 +19,8 @@
   es("pushOn");
   // es("pushOn", {"service-worker": {"relUrl": "/push/esp/sw.js", "scope": "/push/esp/"}});
   
-</script>
-<!--   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+</script> -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
@@ -28,7 +28,7 @@
       appId: "3b4731cd-606f-4ce5-bf56-cb59bb1a0eec",
     });
   });
-</script> -->
+</script>
 </head>
 <body>
   <app-root></app-root>
